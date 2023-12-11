@@ -15,7 +15,7 @@ Check to see if Resynthesizer appears in GIMP. Navigate to Filters -> Enhance. I
 Removing Beads
 In XMALab, export the undistorted (unfiltered) 2D trial images (see XMALab Processing). 
 
-Download the erase_beads.py python script from the SOL_Coding_Repo (https://github.com/skelobslab/SOL_Coding_Repo/tree/main/Python). Edit the filepaths for the trial you are removing images for, then copy the python script into the plug-ins folder. Note that you may not have permission to edit the script directly in the plug-ins folder, so edit the file prior to copying it into the folder.
+Download the erase_beads.py python script from the Repo. Edit the filepaths for the trial you are removing images for, then copy the python script into the plug-ins folder. Note that you may not have permission to edit the script directly in the plug-ins folder, so edit the file prior to copying it into the folder.
 
 You will need to provide the trial's BVR folder path, as well as the names of the camera subfolders. The script will create new folders for the exported images, with "_nobeads" appended to the camera subfolder name (ie.. "C001UND_nobeads"). If you want to name the exported folder something else, this can be edited in the script.
 
